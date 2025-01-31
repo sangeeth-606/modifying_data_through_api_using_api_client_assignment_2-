@@ -1,10 +1,29 @@
 {
   "name": "express-simple-starter",
   "private": true,
+  "type":"module",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "version": "1.0.0",
+  "description": "You have been hired by a local restaurant to **extend** the backend system for managing their online menu. In addition to creating and reading menu items, the restaurant needs the following functionality:",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangeeth-606/modifying_data_through_api_using_api_client_assignment_2-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sangeeth-606/modifying_data_through_api_using_api_client_assignment_2-/issues"
+  },
+  "homepage": "https://github.com/sangeeth-606/modifying_data_through_api_using_api_client_assignment_2-#readme"
 }
